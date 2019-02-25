@@ -1,0 +1,15 @@
+2019-02-21 13:49:45.402 [main] INFO  cn.yang.o2o.O2oApplication - Starting O2oApplication on USER-20180611UF with PID 11212 (E:\IdeaProjects\springbooto2o\target\classes started by Administrator in E:\IdeaProjects\springbooto2o)
+2019-02-21 13:49:45.415 [main] INFO  cn.yang.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-02-21 13:49:47.752 [main] INFO  cn.yang.o2o.O2oApplication - Started O2oApplication in 2.712 seconds (JVM running for 3.634)
+2019-02-21 15:41:35.937 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - Starting AreaDaoTest on USER-20180611UF with PID 6556 (started by Administrator in E:\IdeaProjects\springbooto2o)
+2019-02-21 15:41:35.938 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
+2019-02-21 15:41:40.188 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.526 seconds (JVM running for 6.128)
+2019-02-21 15:43:51.283 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - Starting AreaDaoTest on USER-20180611UF with PID 12104 (started by Administrator in E:\IdeaProjects\springbooto2o)
+2019-02-21 15:43:51.285 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
+2019-02-21 15:43:55.316 [main] INFO  cn.yang.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.294 seconds (JVM running for 5.443)
+2019-02-21 15:48:46.225 [main] INFO  cn.yang.o2o.O2oApplication - Starting O2oApplication on USER-20180611UF with PID 13120 (E:\IdeaProjects\springbooto2o\target\classes started by Administrator in E:\IdeaProjects\springbooto2o)
+2019-02-21 15:48:46.228 [main] INFO  cn.yang.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-02-21 15:48:48.730 [main] INFO  cn.yang.o2o.O2oApplication - Started O2oApplication in 2.827 seconds (JVM running for 3.568)
+2019-02-21 16:35:42.793 [main] INFO  cn.yang.o2o.O2oApplication - Starting O2oApplication on USER-20180611UF with PID 11176 (E:\IdeaProjects\springbooto2o\target\classes started by Administrator in E:\IdeaProjects\springbooto2o)
+2019-02-21 16:35:42.795 [main] INFO  cn.yang.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-02-21 16:35:45.146 [main] INFO  cn.yang.o2o.O2oApplication - Started O2oApplication in 2.706 seconds (JVM running for 3.63)

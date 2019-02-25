@@ -1,0 +1,30 @@
+2019-02-21 13:49:45.410 [main] DEBUG cn.yang.o2o.O2oApplication - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-02-21 15:41:35.937 [main] DEBUG cn.yang.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-02-21 15:41:41.432 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - ==>  Preparing: select area_id, area_name, priority, create_time, last_edit_time from tb_area order by priority desc 
+2019-02-21 15:41:41.484 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2019-02-21 15:41:41.555 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - <==      Total: 4
+2019-02-21 15:41:42.841 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - ==>  Preparing: insert into tb_person_info(name, profile_img, email, gender, enable_status, user_type, create_time, last_edit_time) values (?,?,?,?, ?,?,?,?) 
+2019-02-21 15:41:42.847 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - ==> Parameters: ≤‚ ‘“ªœ¬(String), null, null, null, 1(Integer), 1(Integer), 2019-02-21 15:41:42.837(Timestamp), null
+2019-02-21 15:41:42.882 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - <==    Updates: 1
+2019-02-21 15:41:42.886 [main] DEBUG cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: insert into tb_wechat_auth(user_id, open_id, create_time) values (?,?,?) 
+2019-02-21 15:41:42.893 [main] DEBUG cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 8(Long), dfkalfajfd«®“∆≤‚ ‘(String), 2019-02-21 15:41:42.837(Timestamp)
+2019-02-21 15:43:51.284 [main] DEBUG cn.yang.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-02-21 15:43:55.945 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - ==>  Preparing: select area_id, area_name, priority, create_time, last_edit_time from tb_area order by priority desc 
+2019-02-21 15:43:55.983 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2019-02-21 15:43:56.028 [main] DEBUG cn.yang.o2o.dao.AreaDao.queryArea - <==      Total: 4
+2019-02-21 15:43:57.388 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - ==>  Preparing: insert into tb_person_info(name, profile_img, email, gender, enable_status, user_type, create_time, last_edit_time) values (?,?,?,?, ?,?,?,?) 
+2019-02-21 15:43:57.391 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - ==> Parameters: ≤‚ ‘“ªœ¬(String), null, null, null, 1(Integer), 1(Integer), 2019-02-21 15:43:57.386(Timestamp), null
+2019-02-21 15:43:57.444 [main] DEBUG cn.yang.o2o.dao.PersonInfoDao.insertPersonInfo - <==    Updates: 1
+2019-02-21 15:43:57.446 [main] DEBUG cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: insert into tb_wechat_auth(user_id, open_id, create_time) values (?,?,?) 
+2019-02-21 15:43:57.449 [main] DEBUG cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 9(Long), dfkalfajfd«®“∆≤‚ ‘(String), 2019-02-21 15:43:57.386(Timestamp)
+2019-02-21 15:48:46.228 [main] DEBUG cn.yang.o2o.O2oApplication - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-02-21 15:49:23.544 [http-nio-8080-exec-6] DEBUG c.y.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: select l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status from tb_local_auth l left join tb_person_info p on l.user_id = p.user_id where l.username = ? and l.password = ? 
+2019-02-21 15:49:23.581 [http-nio-8080-exec-6] DEBUG c.y.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testyanglan(String), s05bse6q2qlb9qblls96s592y55y556s(String)
+2019-02-21 15:49:23.651 [http-nio-8080-exec-6] DEBUG c.y.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2019-02-21 15:49:23.848 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopList - ==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s,tb_area a,tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id order by s.priority desc limit ?,?; 
+2019-02-21 15:49:23.849 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 100(Integer)
+2019-02-21 15:49:23.876 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopList - <==      Total: 14
+2019-02-21 15:49:23.877 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2019-02-21 15:49:23.877 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2019-02-21 15:49:23.913 [http-nio-8080-exec-1] DEBUG cn.yang.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2019-02-21 16:35:42.795 [main] DEBUG cn.yang.o2o.O2oApplication - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE

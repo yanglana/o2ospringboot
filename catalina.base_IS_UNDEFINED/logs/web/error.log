@@ -1,0 +1,14 @@
+2019-02-21 15:41:43.245 [main] ERROR cn.yang.o2o.service.impl.WechatAuthServiceImpl - insertWechatAuth error: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
+### The error may involve cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: insert into tb_wechat_auth(user_id, open_id, create_time)         values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
+; Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
+2019-02-21 15:43:57.586 [main] ERROR cn.yang.o2o.service.impl.WechatAuthServiceImpl - insertWechatAuth error: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
+### The error may involve cn.yang.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: insert into tb_wechat_auth(user_id, open_id, create_time)         values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
+; Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'dfkalfajfd«®“∆≤‚ ‘' for key 'open_id'
